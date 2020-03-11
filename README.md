@@ -11,3 +11,7 @@ Mobile testing project using Appium-Selenium-Java technology in real Android dev
 #Mobile device is connected to Laptop where script runs via Appium server.
 
 #POM design methodolgy being used for framework design. Maintaining webelement and assosiated methods in screen based pageObject classes. Base Classes are having the initial and basic setup. Test case classes extend Baseclass. PageObject classes are intialised by test case classes by intantiziation.
+
+#Execution: Open the project in eclipse and run the pom.xml using "maven test" command. Make sure the mobile device is ON.
+
+#In tis project , I have conecentrated more on framework creation for mobile app testing. Used TestNG, Screen captuuring, POM design. Bat file can be created to execute the test cases independently.
