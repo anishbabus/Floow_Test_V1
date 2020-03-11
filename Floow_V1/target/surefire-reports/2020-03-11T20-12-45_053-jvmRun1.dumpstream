@@ -1,0 +1,13 @@
+# Created at 2020-03-11T20:24:38.385
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-03-11T20:25:06.728
+Unexpected IOException: 8,1,testCases.StartApplication,launchingFloow(testCases.StartApplication),null,java.io.IOException: unexpected end of stream on Connection{0.0.0.0:4723\002C proxy=DIRECT hostAddress=/0.0.0.0:4723 cipherSuite=none protocol=http/1.1}\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-TQ0TQVC'\002C ip: '192.168.0.20'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_66'\000ADriver info: driver.version: AppiumDriver,null,java.io.IOException: unexpected end of stream on Connection{0.0.0.0:4723\002C proxy=DIRECT hostAddress=/0.0.0.0:4723 cipherSuite=none protocol=http/1.1}\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-TQ0TQVC'\002C ip: '192.168.0.20'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_66'\000ADriver info: driver.version: AppiumDriver,StartApplication.launchingFloow:44 \00BB WebDriver java.io.IOException: unexpected...,org.openqa.selenium.WebDriverException: \000Ajava.io.IOException: unexpected end of stream on Connection{0.0.0.0:4723\002C proxy=DIRECT hostAddress=/0.0.0.0:4723 cipherSuite=none protocol=http/1.1}\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-TQ0TQVC'\002C ip: '192.168.0.20'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_66'\000ADriver info: driver.version: AppiumDriver\000A\0009at testCases.StartApplication.launchingFloow(StartApplication.java:44)\000ACaused by: java.io.IOException: unexpected end of stream on Connection{0.0.0.0:4723\002C proxy=DIRECT hostAddress=/0.0.0.0:4723 cipherSuite=none protocol=http/1.1}\000A\0009at testCases.StartApplication.launchingFloow(StartApplication.java:44)\000ACaused by: java.io.EOFException: \005Cn not found: limit=0 content=\2026\000A\0009at testCases.StartApplication.launchingFloow(StartApplication.java:44)\000A
+
+

@@ -1,0 +1,11 @@
+testCases\HomeJourneyMoreOptions.class
+testCases\baseClass.class
+testCases\NavigatingHomeParameters.class
+pageObjects\Journeypage.class
+utilities\Reporting.class
+pageObjects\Homepage.class
+pageObjects\Moreoptionpage.class
+testCases\SelectingPreferences.class
+testCases\StartApplication.class
+testCases\JourneyParametersPresent.class
+utilities\ReadConfig.class

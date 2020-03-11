@@ -1,39 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Floow_V1" duration-ms="68717" started-at="2020-03-11T06:07:51Z" finished-at="2020-03-11T06:09:00Z">
+  <suite name="Floow_V1" duration-ms="112197" started-at="2020-03-11T13:09:23Z" finished-at="2020-03-11T13:11:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="68717" started-at="2020-03-11T06:07:51Z" finished-at="2020-03-11T06:09:00Z">
+    <test name="Test" duration-ms="112197" started-at="2020-03-11T13:09:23Z" finished-at="2020-03-11T13:11:15Z">
       <class name="testCases.NavigatingHomeParameters">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.NavigatingHomeParameters@6c3708b3]" name="setup" is-config="true" duration-ms="10335" started-at="2020-03-11T06:08:38Z" finished-at="2020-03-11T06:08:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.NavigatingHomeParameters@335eadca]" name="setup" is-config="true" duration-ms="10475" started-at="2020-03-11T13:10:07Z" finished-at="2020-03-11T13:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="allParamterstraverse()[pri:0, instance:testCases.NavigatingHomeParameters@6c3708b3]" name="allParamterstraverse" duration-ms="10201" started-at="2020-03-11T06:08:49Z" finished-at="2020-03-11T06:08:59Z">
+        <test-method status="PASS" signature="allParamterstraverse()[pri:0, instance:testCases.NavigatingHomeParameters@335eadca]" name="allParamterstraverse" duration-ms="9475" started-at="2020-03-11T13:10:17Z" finished-at="2020-03-11T13:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allParamterstraverse -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.NavigatingHomeParameters@6c3708b3]" name="tearDown" is-config="true" duration-ms="848" started-at="2020-03-11T06:08:59Z" finished-at="2020-03-11T06:09:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.NavigatingHomeParameters@335eadca]" name="tearDown" is-config="true" duration-ms="887" started-at="2020-03-11T13:10:27Z" finished-at="2020-03-11T13:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.NavigatingHomeParameters -->
-      <class name="testCases.StartApplication">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.StartApplication@3e9b1010]" name="setup" is-config="true" duration-ms="13169" started-at="2020-03-11T06:07:51Z" finished-at="2020-03-11T06:08:04Z">
+      <class name="testCases.SelectingPreferences">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.SelectingPreferences@eec5a4a]" name="setup" is-config="true" duration-ms="10550" started-at="2020-03-11T13:10:44Z" finished-at="2020-03-11T13:10:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="launchingFloow()[pri:0, instance:testCases.StartApplication@3e9b1010]" name="launchingFloow" duration-ms="33220" started-at="2020-03-11T06:08:04Z" finished-at="2020-03-11T06:08:38Z">
+        <test-method status="PASS" signature="allParamterstraverse()[pri:0, instance:testCases.SelectingPreferences@eec5a4a]" name="allParamterstraverse" duration-ms="19655" started-at="2020-03-11T13:10:55Z" finished-at="2020-03-11T13:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allParamterstraverse -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.SelectingPreferences@eec5a4a]" name="tearDown" is-config="true" duration-ms="917" started-at="2020-03-11T13:11:14Z" finished-at="2020-03-11T13:11:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SelectingPreferences -->
+      <class name="testCases.StartApplication">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.StartApplication@185d8b6]" name="setup" is-config="true" duration-ms="12004" started-at="2020-03-11T13:09:23Z" finished-at="2020-03-11T13:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchingFloow()[pri:0, instance:testCases.StartApplication@185d8b6]" name="launchingFloow" duration-ms="11781" started-at="2020-03-11T13:09:35Z" finished-at="2020-03-11T13:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchingFloow -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.StartApplication@3e9b1010]" name="tearDown" is-config="true" duration-ms="907" started-at="2020-03-11T06:08:38Z" finished-at="2020-03-11T06:08:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.StartApplication@185d8b6]" name="tearDown" is-config="true" duration-ms="879" started-at="2020-03-11T13:09:47Z" finished-at="2020-03-11T13:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.StartApplication -->
+      <class name="testCases.JourneyParametersPresent">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.JourneyParametersPresent@210366b4]" name="setup" is-config="true" duration-ms="10337" started-at="2020-03-11T13:10:28Z" finished-at="2020-03-11T13:10:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="JourneyParameterspresent()[pri:0, instance:testCases.JourneyParametersPresent@210366b4]" name="JourneyParameterspresent" duration-ms="4969" started-at="2020-03-11T13:10:38Z" finished-at="2020-03-11T13:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JourneyParameterspresent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.JourneyParametersPresent@210366b4]" name="tearDown" is-config="true" duration-ms="885" started-at="2020-03-11T13:10:43Z" finished-at="2020-03-11T13:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.JourneyParametersPresent -->
+      <class name="testCases.HomeJourneyMoreOptions">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.HomeJourneyMoreOptions@67784306]" name="setup" is-config="true" duration-ms="10347" started-at="2020-03-11T13:09:48Z" finished-at="2020-03-11T13:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="traverseHJM()[pri:0, instance:testCases.HomeJourneyMoreOptions@67784306]" name="traverseHJM" duration-ms="8057" started-at="2020-03-11T13:09:58Z" finished-at="2020-03-11T13:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- traverseHJM -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomeJourneyMoreOptions@67784306]" name="tearDown" is-config="true" duration-ms="939" started-at="2020-03-11T13:10:06Z" finished-at="2020-03-11T13:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomeJourneyMoreOptions -->
     </test> <!-- Test -->
   </suite> <!-- Floow_V1 -->
 </testng-results>

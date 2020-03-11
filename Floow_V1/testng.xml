@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Floow_V1">
-  <test thread-count="1" name="Test">
-    <classes>
-      <class name="testCases.StartApplication"/>
-      <!--  <class name="testCases.HomeJourneyMoreOptions"/> -->
-        <class name="testCases.NavigatingHomeParameters"/>
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="testCases.StartApplication" />
+			<class name="testCases.HomeJourneyMoreOptions"/>
+			<class name="testCases.NavigatingHomeParameters"/>
+           <class name="testCases.JourneyParametersPresent"/>
+            <class name="testCases.SelectingPreferences"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

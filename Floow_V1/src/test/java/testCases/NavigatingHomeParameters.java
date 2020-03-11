@@ -13,18 +13,15 @@ import pageObjects.Homepage;
 
 public class NavigatingHomeParameters extends baseClass{
 
-	
+
 	@Test
 	public void allParamterstraverse() throws IOException
 	{
 		Homepage hp=new Homepage(driver);
 		hp.allParamterstraverse();
-		
-		
-		
-
-		}
 
 	}
+
+}
 
 
